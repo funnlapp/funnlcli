@@ -4,6 +4,7 @@ import (
 	"github.com/urfave/cli"
 )
 
+// LoadCommands returns an array of available commands (and subcommands) to the user. These are linked to corresponding actions
 func LoadCommands() []cli.Command {
 	return []cli.Command{
 		{
